@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    margin: 0;
+    font-family: Inter;
+    background-color: #F2F2F2E5;
+}
+
+/*header de navegação*/
+
+header {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    grid-auto-columns: 49%;
+    color:#FFFFFF;
+    background-color: #0C70F2;
+}
+
+#logo {
+    margin-left: 30px;
+}
+
+#div-link {
+    text-align: end;
+    
+}
+#div-link a {
+    font-size: 25px;
+    text-decoration: none;
+    color:#FFFFFF;
+    margin: 30px;
+}
+ /*Texto e foto*/
+
+ #texto-foto {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+ }
+
+ #texto-foto h2 {
+    color: #1F1F1F;
+    font-weight: bolder;
+    margin: 40px;
+    font-size: 30px;
+ }
+ #texto-foto img {
+    height: 120px;
+ }
+
+ /*formulario*/
+
+#secao-form {
+    display: flex;
+    justify-content: center;
+}
+
+#container-form {
+
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    width: 456px;
+
+}
+
+.child-container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.child-container button {
+    border:none;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    background-color: #0C70F2E5;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 60px;
+    ;
+}
+.child-container button:hover {
+    cursor: pointer;
+    background-color: #1860bee5;
+    color: #ffffffa1;
+    box-shadow: #114486;
+}
+.input-form { 
+    background-color: #F2F2F2E5;
+    color:#39393980 ;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 15px 15px 15px 0px;
+}
+
+#input-wrapper { /*criei uma div para os dois input ficarem na mesma linha*/
+    display: flex;
+    justify-content: center;
+}
+
+/*seção Cep*/
+
+#secaoCep{
+    padding: 90px 0px 90px ;
+    text-align: center;
+    align-items: center;
+}
+
+#textoCep {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size:26px;
+
+}
+
+#h2margin {
+    margin: 2px;
+}
+
+#fotoCep {
+    height: 80px;
+}
+
+#container-cep {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background-image: linear-gradient(to bottom, #0C70F2 50%, #FFFFFF 50%);
+    width: 65%;
+    margin: auto;
+}
+
+#azul {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 17vw;
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+
+#branco {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 17vw;
+    color: #1F1F1F;
+    font-weight: bolder;
+
+    
+}
+
+/*Seção Previsão*/
+
+#secaoPrevisao {
+    padding: 90px 0px 90px ;
+    text-align: center;
+    align-items: center;
+    text-align: center;
+}
+#textoPrevisao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:26px
+
+}
+
+#fotonuvem {
+    height: 80px;
+    margin-left: 10px;
+}
+
+#containerPrevisao {
+    border: #0C70F2 solid 1px;
+    border-radius: 15px;
+    width: 60%;
+    margin: auto;
+    background-color: #FFFFFF;
+}
+
+#containerPrevisao p {
+    font-weight: bolder;
+    color: #1F1F1F;
+}
+
+
+footer {
+    padding: 10px;
+    background-color: #0C70F2;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: end;
+}
+
+#footerP {
+    border-right: solid white 2px;
+    width: 117px;
+
+}
+
+footer p {
+    padding: 3px;
+    
+}

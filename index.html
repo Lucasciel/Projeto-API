@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API´s</title>
+    <link rel="stylesheet" href="style.css">
+
+    </script>
+</head>
+<body>
+    <header>
+        <div><h1 id="logo">DncWeather</h1></div>
+        <div id="div-link"><a class="links" href="">endereços</a> <a class="links" href="">previsão do tempo</a></div>
+    </header>
+
+
+    <section id="texto-foto">
+        <div>
+            <h2>Descubra Mais com Precisão: <br>
+            Previsões do Tempo e endereços <br>
+            em tempo real.</h2>
+            
+        </div>
+        <div><img src="./imagens/nuvem.svg" alt="" srcset=""></div>
+
+    </section>
+
+    <section id="secao-form">
+
+        <div id="container-form">
+
+            <div class="child-container"><label class="label-for" for="">Primeiro Nome:</label>
+                <input type="text" name="isira " id="" class="input-form" placeholder="Insira seu primeiro nome:" ></div>
+                
+            
+
+            <div class="child-container"><label class="label-for" for="">E-mail:</label>
+                <input type="email" name="isira " id="" class="input-form" placeholder="Insira seu e-mail" ></div>
+                
+            
+
+            <div class="child-container"><label class="label-for" for="">Digite o CEP:</label>
+                <input type="text" name="isira " id="cep" class="input-form" placeholder="Insira o cep:" required ></div>
+                
+            
+
+            <div class="child-container">
+                <label class="label-for" for="">Digite a latitude e longitude para saber a previsão:</label>
+                
+                <div id="input-wrapper">
+                <input type="text" name="isira " id="latutude" class="input-form" placeholder="Latitude" required>
+                <input type="text" name="isira " id="longitude" class="input-form" placeholder="Longitude" required ></div>
+            
+            </div>
+
+            <div class="child-container">
+                <button type="submit" onclick="buscaCep(); previsao();"  type="button">Acessar</button>
+            </div>
+            
+        </div>
+    </section>
+    
+
+    <section id="secaoCep">
+        <div id="textoCep">
+            <h2 id="h2margin">Resultado da busca por CEP:</h2>
+            <img id="fotoCep" src="./imagens/local.svg" alt="" srcset="" >
+        </div>
+
+        <div id="container-cep">
+            <div id="azul"><p>Logradouro/nome</p> <p>Bairro/Distrito</p> <p>Localidade/UF</p></div>
+            <div id="branco">
+                <p id="RespostaLogradouro">Justino Cobra</p> 
+                <p id="RespostaBairro">Vila Ema</p> 
+                <p id="RespostaLocalidade">SP</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="secaoPrevisao">
+        <div id="textoPrevisao">
+        <h2>Previsão do tempo na região:</h2>
+        <img id="fotonuvem" src="./imagens/nuvem2.svg" alt="" srcset="">
+        </div>
+
+        <div id="containerPrevisao">
+            <p id="respostaPrevisao">Previsão de tempo de acordo com a região: 24° C</p>
+
+        </div>
+    </section>
+
+    <footer>
+        <p id="footerP">Termos de Uso </p> 
+        <p> Política de Privacidade</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
